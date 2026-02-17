@@ -1,0 +1,27 @@
+# Environment
+.env
+
+# Database volume
+postgres_data/
+
+# Uploads
+pst_uploads/*
+!pst_uploads/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Claude Code local settings
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db

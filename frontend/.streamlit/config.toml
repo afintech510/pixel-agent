@@ -1,0 +1,14 @@
+[server]
+# Maximum upload size in MB (increased for large PST files)
+maxUploadSize = 300
+
+# Connection timeout for large uploads (5 minutes)
+maxMessageSize = 300
+
+# Security settings (CORS enabled for local backend communication)
+enableXsrfProtection = false
+enableCORS = true
+
+[browser]
+# Don't try to open browser automatically
+gatherUsageStats = false
